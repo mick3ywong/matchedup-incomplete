@@ -13,9 +13,30 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"MuFehzsocUI7f1DE9oXzrkYNhYmsuxNLbNCLPgMB"
+                  clientKey:@"kcfLawvFu8MeYcBbLYZNy3nUViNiFX7Zwn1US15p"];
+    
+    //integrate Facebook section 10 Matched Up - vid 4
+    [PFFacebookUtils initializeFacebook]; //Facebook singleton
+    
+    
+    
     return YES;
 }
-							
+
+
+//section 10 Matched Up Video 4 - Supports Login to Facebook
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+
+
+
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:[PFFacebookUtils session]]; 
+}
+
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

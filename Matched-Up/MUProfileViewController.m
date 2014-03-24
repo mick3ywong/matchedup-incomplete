@@ -10,6 +10,17 @@
 
 @interface MUProfileViewController ()
 
+
+@property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
+
+@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *ageLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *statusLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *taglineLabel;
+
 @end
 
 @implementation MUProfileViewController
@@ -27,6 +38,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //section 11 Managing the User Profile (video 2)
+    
+    PFFile *pictureFile = self.photo[KMUPhotoPictureKey];
+    [pictureFile getDataInBackgroundWithBlock:^(NSData *data, NSError *error)
+    {
+        self.profilePictureImageView.image = [UIImage imageWithData:data];
+        
+        PFUser *user = self.photo[kMUPhotoUserKey];
+        self.locationLabel.text = user[kMUUserProfileLocationKey];
+        self.ageLabel.text = [NSString stringWithFormat:@"%@", user[kMUUserProfileKey][kMUUserProfileAgeKey]];
+        self.statusLabel.text = user [kMUUserProfileKey][kMUUserProfileRelationshipStatusKey];
+        self.taglineLabel.text = user [kMUUserTagLineKey];
+        
+        //call the segue when clicked (tapped) on info buttonPressed 
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning

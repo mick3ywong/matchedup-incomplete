@@ -10,4 +10,7 @@
 
 @interface MUTestUser : NSObject
 
+//section 11 managing the user profile - video 1 (creating a test user and saving it on parse)
++(void)saveTestUserToParse;
+
 @end

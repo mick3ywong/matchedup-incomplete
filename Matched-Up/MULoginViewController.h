@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MULoginViewController : UIViewController
+//section 10 API Response - video 7 Conform to delegate set
+
+@interface MULoginViewController : UIViewController <NSURLConnectionDataDelegate>
 
 @end

@@ -1,0 +1,1395 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class=" ">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>jessesquires/MessagesTableViewController</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="jessesquires/MessagesTableViewController" name="twitter:title" /><meta content="MessagesTableViewController - A messages UI for iPhone and iPad" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/2301114?s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/2301114?s=400" property="og:image" /><meta content="jessesquires/MessagesTableViewController" property="og:title" /><meta content="https://github.com/jessesquires/MessagesTableViewController" property="og:url" /><meta content="MessagesTableViewController - A messages UI for iPhone and iPad" property="og:description" />
+
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="DB5C4A7A:0326:FF579E:5327EDE2" name="octolytics-dimension-request_id" /><meta content="6584922" name="octolytics-actor-id" /><meta content="mick3ywong" name="octolytics-actor-login" /><meta content="b9a41a7791778fe8b64134964ab38168ef680eeac0e312f9995de0ac552e425b" name="octolytics-actor-hash" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://github.global.ssl.fastly.net/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="tiIZD9woEnQECqmOpqlqtECXhRhLJ06RMCD7wxQM/MI=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-8a247d1ca7f16ee20b1b22975990df30ce83c27a.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-43c85266b41a94cc6a086312256ffbb8b0340a48.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+        <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-1a87607f18aafc1a4945718470fbc37ad0d882ea.js" type="text/javascript"></script>
+        <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-aaf7c886c869a715c92ab21e6736e72beafc7e90.js" type="text/javascript"></script>
+        
+        
+      <meta http-equiv="x-pjax-version" content="9df1f0bdf66a8c4f67047187583976b8">
+
+      
+  <meta name="description" content="MessagesTableViewController - A messages UI for iPhone and iPad" />
+
+  <meta content="2301114" name="octolytics-dimension-user_id" /><meta content="jessesquires" name="octolytics-dimension-user_login" /><meta content="8257106" name="octolytics-dimension-repository_id" /><meta content="jessesquires/MessagesTableViewController" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="8257106" name="octolytics-dimension-repository_network_root_id" /><meta content="jessesquires/MessagesTableViewController" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/jessesquires/MessagesTableViewController/commits/master.atom" rel="alternate" title="Recent Commits to MessagesTableViewController:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public">
+    <a href="#start-of-content" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    
+    <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s" data-gotokey="n">
+        <span class="mail-status all-read"></span>
+</a>
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="mick3ywong"
+      data-repo="jessesquires/MessagesTableViewController"
+      data-branch="master"
+      data-sha="68bfa807601fcc0754e7b6cdb1860bcdc10c0806"
+  >
+
+    <input type="hidden" name="nwo" value="jessesquires/MessagesTableViewController" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/mick3ywong" class="name">
+        <img alt="mick3ywong" class=" js-avatar" data-user="6584922" height="20" src="https://avatars3.githubusercontent.com/u/6584922?s=140" width="20" /> mick3ywong
+      </a>
+    </li>
+
+    <li class="new-menu dropdown-toggle js-menu-container">
+      <a href="#" class="js-menu-target tooltipped tooltipped-s" aria-label="Create new...">
+        <span class="octicon octicon-plus"></span>
+        <span class="dropdown-arrow"></span>
+      </a>
+
+      <div class="new-menu-content js-menu-content">
+      </div>
+    </li>
+
+    <li>
+      <a href="/settings/profile" id="account_settings"
+        class="tooltipped tooltipped-s"
+        aria-label="Account settings ">
+        <span class="octicon octicon-tools"></span>
+      </a>
+    </li>
+    <li>
+      <a class="tooltipped tooltipped-s" href="/logout" data-method="post" id="logout" aria-label="Sign out">
+        <span class="octicon octicon-log-out"></span>
+      </a>
+    </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="section-title">
+      <span title="jessesquires/MessagesTableViewController">This repository</span>
+    </li>
+      <li>
+        <a href="/jessesquires/MessagesTableViewController/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tiIZD9woEnQECqmOpqlqtECXhRhLJ06RMCD7wxQM/MI=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="8257106" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/jessesquires/MessagesTableViewController/watchers">
+        101
+      </a>
+      <span class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-watch"></span>
+          Watch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for conversations in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+
+  <div class="js-toggler-container js-social-container starring-container ">
+    <a href="/jessesquires/MessagesTableViewController/unstar"
+      class="minibutton with-count js-toggler-target star-button starred"
+      aria-label="Unstar this repository" title="Unstar jessesquires/MessagesTableViewController" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+    </a>
+
+    <a href="/jessesquires/MessagesTableViewController/star"
+      class="minibutton with-count js-toggler-target star-button unstarred"
+      aria-label="Star this repository" title="Star jessesquires/MessagesTableViewController" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star"></span><span class="text">Star</span>
+    </a>
+
+      <a class="social-count js-social-count" href="/jessesquires/MessagesTableViewController/stargazers">
+        1,220
+      </a>
+  </div>
+
+  </li>
+
+
+        <li>
+          <a href="/jessesquires/MessagesTableViewController/fork" class="minibutton with-count js-toggler-target fork-button lighter tooltipped-n" title="Fork your own copy of jessesquires/MessagesTableViewController to your account" aria-label="Fork your own copy of jessesquires/MessagesTableViewController to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/jessesquires/MessagesTableViewController/network" class="social-count">266</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/jessesquires" class="url fn" itemprop="url" rel="author"><span itemprop="title">jessesquires</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/jessesquires/MessagesTableViewController" class="js-current-repository js-repo-home-link">MessagesTableViewController</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/jessesquires/MessagesTableViewController" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /jessesquires/MessagesTableViewController">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/jessesquires/MessagesTableViewController/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /jessesquires/MessagesTableViewController/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>27</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/jessesquires/MessagesTableViewController/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /jessesquires/MessagesTableViewController/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>2</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/jessesquires/MessagesTableViewController/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /jessesquires/MessagesTableViewController/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/jessesquires/MessagesTableViewController/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /jessesquires/MessagesTableViewController/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/jessesquires/MessagesTableViewController/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /jessesquires/MessagesTableViewController/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/jessesquires/MessagesTableViewController/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /jessesquires/MessagesTableViewController/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jessesquires/MessagesTableViewController.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jessesquires/MessagesTableViewController.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><strong>SSH</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="git@github.com:jessesquires/MessagesTableViewController.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:jessesquires/MessagesTableViewController.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jessesquires/MessagesTableViewController" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jessesquires/MessagesTableViewController" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+  <a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/jessesquires/MessagesTableViewController" class="minibutton sidebar-button js-conduit-rewrite-url" title="Save jessesquires/MessagesTableViewController to your computer and use it in GitHub Desktop." aria-label="Save jessesquires/MessagesTableViewController to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/jessesquires/MessagesTableViewController/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download jessesquires/MessagesTableViewController as a zip file"
+                   title="Download jessesquires/MessagesTableViewController as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>A messages UI for iPhone and iPad</p>
+    </div>
+
+    <div class="repository-website js-details-show">
+      <p><a href="http://cocoadocs.org/docsets/JSMessagesViewController/4.0.0" rel="nofollow">http://cocoadocs.org/docsets/JSMessagesViewController/4.0.0</a></p>
+    </div>
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/jessesquires/MessagesTableViewController/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              438
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/jessesquires/MessagesTableViewController/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            5
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/jessesquires/MessagesTableViewController/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            18
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/jessesquires/MessagesTableViewController/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      17
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/jessesquires/MessagesTableViewController/search?l=objective-c">
+                <span class="color-block language-color" style="background-color:#438eff;"></span>
+                <span class="lang">Objective-C</span>
+                <span class="percent">99.4%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/jessesquires/MessagesTableViewController/search?l=ruby">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">0.6%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#701516">
+  <span class="language-color" style="width:99.4%; background-color:#438eff;" itemprop="keywords">Objective-C</span><span class="language-color" style="width:0.6%; background-color:#701516;" itemprop="keywords">Ruby</span>
+    </a>
+  </div>
+
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/jessesquires/MessagesTableViewController/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped tooltipped-s" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/develop"
+                 data-name="develop"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="develop">develop</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/iOS6_support_stable"
+                 data-name="iOS6_support_stable"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="iOS6_support_stable">iOS6_support_stable</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/issue_76_photoMessages"
+                 data-name="issue_76_photoMessages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="issue_76_photoMessages">issue_76_photoMessages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/version_5_release"
+                 data-name="version_5_release"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="version_5_release">version_5_release</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/v2.0.2"
+                 data-name="v2.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.0.2">v2.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/v2.0.1"
+                 data-name="v2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.0.1">v2.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/v2.0"
+                 data-name="v2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.0">v2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/4.0.2"
+                 data-name="4.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="4.0.2">4.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/4.0.1"
+                 data-name="4.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="4.0.1">4.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/4.0.0"
+                 data-name="4.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="4.0.0">4.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.4.4"
+                 data-name="3.4.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.4.4">3.4.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.4.3"
+                 data-name="3.4.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.4.3">3.4.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.4.2"
+                 data-name="3.4.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.4.2">3.4.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.4.1"
+                 data-name="3.4.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.4.1">3.4.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.4.0"
+                 data-name="3.4.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.4.0">3.4.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.3.0"
+                 data-name="3.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.3.0">3.3.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.2.0"
+                 data-name="3.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.2.0">3.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.1.0"
+                 data-name="3.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.1.0">3.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/3.0.0"
+                 data-name="3.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="3.0.0">3.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/1.1.0"
+                 data-name="1.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.0">1.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/1.0.1"
+                 data-name="1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.1">1.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jessesquires/MessagesTableViewController/tree/1.0.0"
+                 data-name="1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.0">1.0.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jessesquires/MessagesTableViewController" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">MessagesTableViewController</span></a></span></span><span class="separator"> / </span><form action="/jessesquires/MessagesTableViewController/new/master" aria-label="Fork this project and create a new file" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Fork this project and create a new file" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/jessesquires/MessagesTableViewController/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/181" class="issue-link" title="content observer removed twice">#181</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">. close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/180" class="issue-link" title="Crashes when popped from UINavigationController">#180</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">.</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+      <a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="sha-block" data-pjax>latest commit <span class="sha">af7a1be1c9</span></a>
+
+      <div class="authorship">
+        <img alt="Jesse Squires" class="gravatar js-avatar" data-user="2301114" height="20" src="https://2.gravatar.com/avatar/428f8fdcf0f70e585363d23a6ec2121d?d=https%3A%2F%2Fidenticons.github.com%2F6bf29445e80e01386eec2bca4361fd1c.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/jessesquires" data-skip-pjax="true" rel="author">jessesquires</a></span>
+        authored <time class="js-relative-date updated" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-03-02T14:14:40-08:00" title="2014-03-02 14:14:40">March 02, 2014</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/jessesquires/MessagesTableViewController/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/JSMessagesDemo.xcodeproj" class="js-directory-link" id="687525f39199d9d68fce37480473827c-157bdc2df73b9f953cce0f9fdc8aec3a88fcf123" title="JSMessagesDemo.xcodeproj">JSMessagesDemo.xcodeproj</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/181" class="issue-link" title="content observer removed twice">#181</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">. close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/180" class="issue-link" title="Crashes when popped from UINavigationController">#180</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-03-02T14:14:40-08:00" title="2014-03-02 22:14:40">March 02, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/JSMessagesDemo.xcworkspace" class="js-directory-link" id="c4a2dc2792ba2278aed8ac117e5053aa-0c81af5485bbd698169e92d23b5318c3ceb92ee2" title="JSMessagesDemo.xcworkspace">JSMessagesDemo.xcworkspace</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/22a77f6237e5263a62dd3de570ea544fd3f2b760" class="message" data-pjax="true" title="add cocoapods to demo. integrate JSQSystemSoundPlayer.">add cocoapods to demo. integrate JSQSystemSoundPlayer.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-07T19:22:19-08:00" title="2013-12-08 03:22:19">December 07, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/JSMessagesDemo" class="js-directory-link" id="22cabe7da0b58a9074d44c378b633e18-9708bf7de8c9a65b6a7ca16393906cf546d2dad9" title="JSMessagesDemo">JSMessagesDemo</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/9d0929352fd4bd51c1014c794fc5f6cda7d9b9c3" class="message" data-pjax="true" title="v 4.0.1">v 4.0.1</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-27T23:38:00-08:00" title="2014-02-28 07:38:00">February 27, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/JSMessagesDemoTests" class="js-directory-link" id="84b0c302c5f1a82a720b27fc36415422-6b47ed42b4ea0e59a8c5242c2aee448293b0a059" title="JSMessagesDemoTests">JSMessagesDemoTests</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/b4cb799269300931a53369bd42a95b144e4a6911" class="message" data-pjax="true" title="begin unit tests">begin unit tests</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-22T21:32:53-08:00" title="2014-02-23 05:32:53">February 22, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/JSMessagesViewController" class="js-directory-link" id="1716244c157535520f37a502ce531ee8-8f7c317859a876a02bb09d6ff8cc850185b58e79" title="JSMessagesViewController">JSMessagesViewController</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/181" class="issue-link" title="content observer removed twice">#181</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">. close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/180" class="issue-link" title="Crashes when popped from UINavigationController">#180</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-03-02T14:14:40-08:00" title="2014-03-02 22:14:40">March 02, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/tree/master/Screenshots" class="js-directory-link" id="46fa564bb1eed5cd3992cac85e8f094b-9c269e599526f7dd778ed63eb41ac6a5106d0c9e" title="Screenshots">Screenshots</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/f0904975c20ba1befc1e4baeb345d3832b1f8b81" class="message" data-pjax="true" title="update screenshot">update screenshot</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-04T18:24:04-08:00" title="2014-01-05 02:24:04">January 04, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-9e5f0fe57b5f13e60f197b6ae8f55709b99af008" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/99d974bf26824d41ce365dd326575ae6b9cd51bc" class="message" data-pjax="true" title="update ignore. use asset catalog in Xcode5.">update ignore. use asset catalog in Xcode5.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-10-20T15:58:44-07:00" title="2013-10-20 22:58:44">October 20, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-267258a9e2caab129500eca3469646ca0b140b37" title=".travis.yml">.travis.yml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/74de8857f789f702b98b5862cad73d5135cc4449" class="message" data-pjax="true" title="update travis">update travis</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-22T20:44:19-08:00" title="2014-02-23 04:44:19">February 22, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/JSMessagesViewController.podspec" class="js-directory-link" id="dd351ca59dbc1b170375a2e581976b7f-b02f9db22924bb05d3637911be4606a45f750070" title="JSMessagesViewController.podspec">JSMessagesViewController.podspec</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/181" class="issue-link" title="content observer removed twice">#181</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">. close</a> <a href="https://github.com/jessesquires/MessagesTableViewController/issues/180" class="issue-link" title="Crashes when popped from UINavigationController">#180</a><a href="/jessesquires/MessagesTableViewController/commit/af7a1be1c9cae2e62d6bb1967267bb4302ed6fa2" class="message" data-pjax="true" title="close #181. close #180.">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-03-02T14:14:40-08:00" title="2014-03-02 22:14:40">March 02, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/LICENSE.txt" class="js-directory-link" id="61e0bdf7e1b43c5c93d9488b22e04170-e39fc6ba9b9e8541fe2b69c5c9e8b549832b8007" title="LICENSE.txt">LICENSE.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/6919550501beb76daaa736577a130104e98a2c57" class="message" data-pjax="true" title="fancy new xcode 5 project.">fancy new xcode 5 project.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-08T22:35:56-08:00" title="2013-11-09 06:35:56">November 08, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/Podfile" class="js-directory-link" id="4a25b996826623c4a3a4910f47f10c30-640b40e6cfc3974da0fb3761539a6ace7fc17e80" title="Podfile">Podfile</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/ace3ae9d3463cabbc9141f89b139408aadad2c17" class="message" data-pjax="true" title="fix pod config and schemes. update travis scripts.">fix pod config and schemes. update travis scripts.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-07T20:04:22-08:00" title="2013-12-08 04:04:22">December 07, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/Podfile.lock" class="js-directory-link" id="04fcbd1c0da95c817cfec1af86aa32ad-5858f97dba00646e2681190aeb4a6e2635bf7ef2" title="Podfile.lock">Podfile.lock</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/a1b2b5ff014197b12be1195426b170bf812e5b32" class="message" data-pjax="true" title="tweak demo">tweak demo</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-17T20:26:34-08:00" title="2014-01-18 04:26:34">January 17, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-3674ed64589d942618f7028289c632f48057b5cd" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jessesquires/MessagesTableViewController/commit/49cf3074bb6c50ef17e59658146808e6f70c48ff" class="message" data-pjax="true" title="bump version to 4.0.0">bump version to 4.0.0</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-22T22:55:34-08:00" title="2014-02-23 06:55:34">February 22, 2014</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="jsmessagesviewcontroller" class="anchor" href="#jsmessagesviewcontroller"><span class="octicon octicon-link"></span></a>JSMessagesViewController</h1>
+
+<p><a href="http://travis-ci.org/jessesquires/MessagesTableViewController"><img src="https://github-camo.global.ssl.fastly.net/0bd1935f52d2af76cfac592953da2218bdbcaad7/68747470733a2f2f7365637572652e7472617669732d63692e6f72672f6a65737365737175697265732f4d657373616765735461626c6556696577436f6e74726f6c6c65722e706e67" alt="Build Status" data-canonical-src="https://secure.travis-ci.org/jessesquires/MessagesTableViewController.png" style="max-width:100%;"></a> <a href="http://cocoadocs.org/docsets/JSMessagesViewController/4.0.0"><img src="https://github-camo.global.ssl.fastly.net/8c1769c83d912c5d91b43479d2555df820e4f07a/68747470733a2f2f636f636f61706f642d6261646765732e6865726f6b756170702e636f6d2f762f4a534d6573736167657356696577436f6e74726f6c6c65722f62616467652e706e67" alt="Version Status" data-canonical-src="https://cocoapod-badges.herokuapp.com/v/JSMessagesViewController/badge.png" style="max-width:100%;"></a> <a href="http://opensource.org/licenses/MIT"><img src="https://github-camo.global.ssl.fastly.net/d52a88479f6778bd38ef7f98317a14726f96e4e8/687474703a2f2f622e7265706c2e63612f76312f6c6963656e73652d4d49542d626c75652e706e67" alt="license MIT" data-canonical-src="http://b.repl.ca/v1/license-MIT-blue.png" style="max-width:100%;"></a></p>
+
+<p>A messages UI for iPhone and iPad.</p>
+
+<p><code>JSMessagesViewController</code> is a <code>UIViewController</code> subclass that is very similar to the iOS Messages app. </p>
+
+<p><a href="https://raw.github.com/jessesquires/MessagesTableViewController/master/Screenshots/iphone5-screenshot-ios7.png" target="_blank"><img src="https://raw.github.com/jessesquires/MessagesTableViewController/master/Screenshots/iphone5-screenshot-ios7.png" alt="Messages Screenshot 1" style="max-width:100%;"></a>     <a href="https://raw.github.com/jessesquires/MessagesTableViewController/master/Screenshots/iphone5-screenshot5.png" target="_blank"><img src="https://raw.github.com/jessesquires/MessagesTableViewController/master/Screenshots/iphone5-screenshot5.png" alt="Messages Screenshot 2" style="max-width:100%;"></a></p>
+
+<p><em>See more <a href="https://github.com/jessesquires/MessagesTableViewController/tree/master/Screenshots">screenshots</a> in the <code>Screenshots/</code> directory.</em></p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Highly customizable</li>
+<li>Arbitrary message sizes</li>
+<li>Copy &amp; paste messages</li>
+<li>Support for group messages</li>
+<li>Data detectors (recognizes phone numbers, links, dates, etc.)</li>
+<li>Timestamps</li>
+<li>Avatars</li>
+<li>Subtitles</li>
+<li>Lots of bubble styles, or use your own!</li>
+<li>Swipe down to hide keyboard</li>
+<li>Dynamically resizes input text view as you type</li>
+<li>Smooth animations</li>
+<li>Automatically enables/disables send button (if text view is empty or not)</li>
+<li>Send/Receive sound effects</li>
+<li>Storyboards support (if that's how you roll)</li>
+<li>Universal for iPhone and iPad</li>
+</ul><h2>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>iOS 6.0+ </li>
+<li>ARC</li>
+<li><a href="https://github.com/jessesquires/JSQSystemSoundPlayer">JSQSystemSoundPlayer</a></li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h4>
+<a name="from-cocoapods" class="anchor" href="#from-cocoapods"><span class="octicon octicon-link"></span></a>From <a href="http://www.cocoapods.org">CocoaPods</a>
+</h4>
+
+<p><code>pod 'JSMessagesViewController'</code></p>
+
+<h4>
+<a name="from-source" class="anchor" href="#from-source"><span class="octicon octicon-link"></span></a>From source</h4>
+
+<ul>
+<li>Drag the <code>JSMessagesViewController/</code> folder to your project</li>
+<li>Download <a href="https://github.com/jessesquires/JSQSystemSoundPlayer">JSQSystemSoundPlayer</a> and follow its install instructions</li>
+<li>Add the <code>QuartzCore.framework</code> to your project</li>
+</ul><h4>
+<a name="too-cool-for-arc" class="anchor" href="#too-cool-for-arc"><span class="octicon octicon-link"></span></a>Too cool for <a href="https://developer.apple.com/library/mac/releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html">ARC</a>?</h4>
+
+<ul>
+<li>Add the <code>-fobjc-arc</code> compiler flag to all source files in your project in Target Settings &gt; Build Phases &gt; Compile Sources.</li>
+</ul><h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<h3>
+<a name="setup-your-model" class="anchor" href="#setup-your-model"><span class="octicon octicon-link"></span></a>Setup your model</h3>
+
+<p>Your model objects should conform to the <code>JSMessageData</code> protocol. However, you may use the provided <code>JSMessage</code> class for your model objects if you wish.</p>
+
+<h3>
+<a name="setup-your-view-controller" class="anchor" href="#setup-your-view-controller"><span class="octicon octicon-link"></span></a>Setup your view controller</h3>
+
+<ol>
+<li>Subclass <code>JSMessagesViewController</code>
+</li>
+<li>Conform to the protocols <code>&lt;JSMessagesViewDelegate, JSMessagesViewDataSource&gt;</code>
+</li>
+<li>Implement the <code>JSMessagesViewDelegate</code> protocol</li>
+<li>Implement the <code>JSMessagesViewDataSource</code> protocol</li>
+<li>Implement <code>tableView: numberOfRowsInSection:</code> from the <a href="https://developer.apple.com/library/ios/documentation/uikit/reference/UITableViewDataSource_Protocol/Reference/Reference.html"><code>UITableViewDataSource</code> protocol</a>.</li>
+<li>Setup your <code>viewDidLoad</code> like the following:</li>
+</ol><div class="highlight highlight-objective-c"><pre><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewDidLoad</span>
+<span class="p">{</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">dataSource</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    <span class="p">[</span><span class="n">super</span> <span class="n">viewDidLoad</span><span class="p">];</span>
+
+    <span class="p">[[</span><span class="n">JSBubbleView</span> <span class="n">appearance</span><span class="p">]</span> <span class="n">setFont</span><span class="o">:</span><span class="cm">/* your font for the message bubbles */</span><span class="p">];</span>
+
+    <span class="n">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">@"Your view controller title"</span><span class="p">;</span>
+
+    <span class="n">self</span><span class="p">.</span><span class="n">messageInputView</span><span class="p">.</span><span class="n">textView</span><span class="p">.</span><span class="n">placeHolder</span> <span class="o">=</span> <span class="s">@"Your placeholder text"</span><span class="p">;</span>
+
+    <span class="n">self</span><span class="p">.</span><span class="n">sender</span> <span class="o">=</span> <span class="s">@"Username of sender"</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="present-your-view-controller" class="anchor" href="#present-your-view-controller"><span class="octicon octicon-link"></span></a>Present your view controller</h3>
+
+<ol>
+<li><p>Present your subclassed view controller programatically or via StoryBoards. Your subclass should be the <code>rootViewController</code> of a <code>UINavigationController</code>, or pushed on an existing navigation stack.</p></li>
+<li><p>You may want to show the most recent message when presenting your view: (<em>this is no longer default behavior</em>)</p></li>
+</ol><div class="highlight highlight-objective-c"><pre><span class="c1">// Scroll to the most recent message before view appears</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewWillAppear:</span><span class="p">(</span><span class="kt">BOOL</span><span class="p">)</span><span class="nv">animated</span>
+<span class="p">{</span>
+    <span class="p">[</span><span class="n">super</span> <span class="n">viewWillAppear</span><span class="o">:</span><span class="n">animated</span><span class="p">];</span>
+    <span class="p">[</span><span class="n">self</span> <span class="n">scrollToBottomAnimated</span><span class="o">:</span><span class="nb">NO</span><span class="p">];</span>
+<span class="p">}</span>
+</pre></div>
+
+<h2>
+<a name="questions" class="anchor" href="#questions"><span class="octicon octicon-link"></span></a>Questions?</h2>
+
+<ol>
+<li>Be a badass <a href="http://programming-motherfucker.com">programming-motherfucker</a> and <a href="http://thecodinglove.com/post/64679177345/when-i-use-a-lib-without-reading-documentation">read</a> the fucking documentation. Yes, there's fucking documentation! And it is fucking kept up-to-date. How fucking sweet is that? <a href="http://thecodinglove.com/post/45748349769/when-the-library-has-a-very-good-documentation">Pretty fucking sweet</a>.</li>
+<li>See the included demo: <strong><code>JSMessagesDemo.xcworkspace</code></strong>. Don't forget to run <code>pod install</code> before opening!</li>
+<li>Still need help? That's ok! Just <a href="https://github.com/jessesquires/MessagesTableViewController/issues/new">open a new issue</a> with your question, and <em>add the question label</em>. </li>
+<li>
+<strong>Please do not email me your question if you need help</strong>. <em>But I really want to email you. Why can't I?</em>
+
+<ul>
+<li>Opening an issue is better for you and the community, because it provides better transparency.</li>
+<li>I'm often busy and may not reply in a timely manor.</li>
+<li>People using this library and watching this repo may be able to answer your question sooner.</li>
+<li>Someone else likely has a similar question and also needs an answer.</li>
+<li>Users of this library can search the issues for previously asked questions.</li>
+</ul>
+</li>
+</ol><h2>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Documentation is <a href="http://cocoadocs.org/docsets/JSMessagesViewController/4.0.0">available here</a> via <a href="http://cocoadocs.org">CocoaDocs</a>. Thanks <a href="https://twitter.com/CocoaDocs">@CocoaDocs</a>!</p>
+
+<h2>
+<a name="donate" class="anchor" href="#donate"><span class="octicon octicon-link"></span></a>Donate</h2>
+
+<p>Support the developement of this <strong>free</strong>, open-source control! via <a href="https://square.com/cash">Square Cash</a>.</p>
+
+<h4>
+<a name="send-1-just-saying-thanks" class="anchor" href="#send-1-just-saying-thanks"><span class="octicon octicon-link"></span></a><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&amp;subject=%241&amp;body=Thanks%20for%20developing%20JSMessagesViewController!">Send $1</a> <em>Just saying thanks!</em>
+</h4>
+
+<h4>
+<a name="send-5-this-control-is-great" class="anchor" href="#send-5-this-control-is-great"><span class="octicon octicon-link"></span></a><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&amp;subject=%245&amp;body=Thanks%20for%20developing%20JSMessagesViewController!">Send $5</a> <em>This control is great!</em>
+</h4>
+
+<h4>
+<a name="send-10-this-totally-saved-me-time" class="anchor" href="#send-10-this-totally-saved-me-time"><span class="octicon octicon-link"></span></a><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&amp;subject=%2410&amp;body=Thanks%20for%20developing%20JSMessagesViewController!">Send $10</a> <em>This totally saved me time!</em>
+</h4>
+
+<h4>
+<a name="send-25-i-want-new-features" class="anchor" href="#send-25-i-want-new-features"><span class="octicon octicon-link"></span></a><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&amp;subject=%2425&amp;body=Thanks%20for%20developing%20JSMessagesViewController!">Send $25</a> <em>I want new features!</em>
+</h4>
+
+<h4>
+<a name="send-50-i-love-this-project" class="anchor" href="#send-50-i-love-this-project"><span class="octicon octicon-link"></span></a><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&amp;subject=%2450&amp;body=Thanks%20for%20developing%20JSMessagesViewController!">Send $50</a> <em>I love this project!</em>
+</h4>
+
+<h2>
+<a name="customization" class="anchor" href="#customization"><span class="octicon octicon-link"></span></a>Customization</h2>
+
+<ul>
+<li>You can customize almost any property of a cell by implementing the optional delegate method <code>configureCell: atIndexPath:</code>
+</li>
+</ul><div class="highlight highlight-objective-c"><pre><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">configureCell:</span><span class="p">(</span><span class="n">JSBubbleMessageCell</span> <span class="o">*</span><span class="p">)</span><span class="nv">cell</span> <span class="nf">atIndexPath:</span><span class="p">(</span><span class="n">NSIndexPath</span> <span class="o">*</span><span class="p">)</span><span class="nv">indexPath</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">([</span><span class="n">cell</span> <span class="n">messageType</span><span class="p">]</span> <span class="o">==</span> <span class="n">JSBubbleMessageTypeOutgoing</span><span class="p">)</span> <span class="p">{</span>
+
+        <span class="c1">// Customize any UITextView properties</span>
+        <span class="n">cell</span><span class="p">.</span><span class="n">bubbleView</span><span class="p">.</span><span class="n">textView</span><span class="p">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="n">whiteColor</span><span class="p">];</span>
+
+        <span class="k">if</span> <span class="p">([</span><span class="n">cell</span><span class="p">.</span><span class="n">bubbleView</span><span class="p">.</span><span class="n">textView</span> <span class="n">respondsToSelector</span><span class="o">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">linkTextAttributes</span><span class="p">)])</span> <span class="p">{</span>
+            <span class="n">NSMutableDictionary</span> <span class="o">*</span><span class="n">attrs</span> <span class="o">=</span> <span class="p">[</span><span class="n">cell</span><span class="p">.</span><span class="n">bubbleView</span><span class="p">.</span><span class="n">textView</span><span class="p">.</span><span class="n">linkTextAttributes</span> <span class="n">mutableCopy</span><span class="p">];</span>
+            <span class="p">[</span><span class="n">attrs</span> <span class="n">setValue</span><span class="o">:</span><span class="p">[</span><span class="n">UIColor</span> <span class="n">blueColor</span><span class="p">]</span> <span class="n">forKey</span><span class="o">:</span><span class="n">UITextAttributeTextColor</span><span class="p">];</span>
+
+            <span class="n">cell</span><span class="p">.</span><span class="n">bubbleView</span><span class="p">.</span><span class="n">textView</span><span class="p">.</span><span class="n">linkTextAttributes</span> <span class="o">=</span> <span class="n">attrs</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Customize any UILabel properties for timestamps or subtitles</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">cell</span><span class="p">.</span><span class="n">timestampLabel</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cell</span><span class="p">.</span><span class="n">timestampLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="n">lightGrayColor</span><span class="p">];</span>
+        <span class="n">cell</span><span class="p">.</span><span class="n">timestampLabel</span><span class="p">.</span><span class="n">shadowOffset</span> <span class="o">=</span> <span class="n">CGSizeZero</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">cell</span><span class="p">.</span><span class="n">subtitleLabel</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cell</span><span class="p">.</span><span class="n">subtitleLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="n">lightGrayColor</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Enable data detectors</span>
+    <span class="n">cell</span><span class="p">.</span><span class="n">bubbleView</span><span class="p">.</span><span class="n">textView</span><span class="p">.</span><span class="n">dataDetectorTypes</span> <span class="o">=</span> <span class="n">UIDataDetectorTypeAll</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<ul>
+<li>Set the font for your messages bubbles via <code>UIAppearance</code>
+</li>
+</ul><div class="highlight highlight-objective-c"><pre><span class="p">[[</span><span class="n">JSBubbleView</span> <span class="n">appearance</span><span class="p">]</span> <span class="n">setFont</span><span class="o">:</span><span class="p">[</span><span class="n">UIFont</span> <span class="n">systemFontOfSize</span><span class="o">:</span><span class="mf">16.0f</span><span class="p">]];</span>
+</pre></div>
+
+<ul>
+<li><p>Customize your message bubbles with <code>JSBubbleImageViewFactory</code></p></li>
+<li><p>Customize your avatars with <code>JSAvatarImageFactory</code></p></li>
+</ul><h2>
+<a name="how-to-contribute" class="anchor" href="#how-to-contribute"><span class="octicon octicon-link"></span></a>How To Contribute</h2>
+
+<p>Please follow these sweet <a href="https://github.com/jessesquires/HowToContribute">contribution guidelines</a>.</p>
+
+<h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>Created by <a href="https://twitter.com/jesse_squires">@jesse_squires</a>, a <a href="http://programming-motherfucker.com">programming-motherfucker</a>.</p>
+
+<p>Assets extracted using <a href="https://github.com/0xced">@0xced</a> <strong>/</strong> <a href="https://github.com/0xced/iOS-Artwork-Extractor">iOS-Artwork-Extractor</a>.</p>
+
+<p>Originally inspired by <a href="http://github.com/soffes">@soffes</a> <strong>/</strong> <a href="https://github.com/soffes/ssmessagesviewcontroller">SSMessagingViewController</a>.</p>
+
+<p>Many thanks to <a href="https://github.com/jessesquires/MessagesTableViewController/graphs/contributors">the contributors</a> of this project.</p>
+
+<p>Square message bubbles designed by <a href="http://www.twitter.com/michaelschultz">@michaelschultz</a>.</p>
+
+<h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p>I initially developed this control to use in <a href="http://www.hemoglobe.com">Hemoglobe</a> for private messages between users.</p>
+
+<p>As it turns out, messaging is a popular thing that iOS devs and users want. Thus, I am supporting this project in my free time and have added features way beyond what <a href="http://www.hemoglobe.com">Hemoglobe</a> ever needed.</p>
+
+<p>Check out my work at <a href="http://www.hexedbits.com">Hexed Bits</a>.</p>
+
+<h2>
+<a name="apps-using-this-control" class="anchor" href="#apps-using-this-control"><span class="octicon octicon-link"></span></a>Apps Using This Control</h2>
+
+<p><a href="http://bit.ly/hemoglobeapp">Hemoglobe</a></p>
+
+<p><a href="https://itunes.apple.com/us/app/loopse-spots-friends-sessions/id704783915?mt=8">Loopse</a></p>
+
+<p><a href="https://github.com/tochman/OxwallMessenger">Oxwall Messenger</a></p>
+
+<p><a href="https://itunes.apple.com/us/app/fourchat/id650833730?mt=8">FourChat</a></p>
+
+<p><a href="https://itunes.apple.com/us/app/quick-text-message-fast-sms/id583729997?mt=8">Quick Text Message</a></p>
+
+<p><a href="https://itunes.apple.com/us/app/libraries-for-developers/id653427112?mt=8">Libraries for developers</a></p>
+
+<p><em><a href="mailto:jesse.squires.developer@gmail.com">Contact me</a> to have your app listed here.</em></p>
+
+<h2>
+<a name="related-projects" class="anchor" href="#related-projects"><span class="octicon octicon-link"></span></a>Related Projects</h2>
+
+<p><a href="https://github.com/soffes/ssmessagesviewcontroller">SSMessagingViewController</a></p>
+
+<p><a href="https://github.com/acani/AcaniChat">AcaniChat</a></p>
+
+<p><a href="https://github.com/AlexBarinov/UIBubbleTableView">UIBubbleTableView</a></p>
+
+<p><a href="https://github.com/sibahota059/SPHChatBubble">SPHChatBubble</a></p>
+
+<h2>
+<a name="mit-license" class="anchor" href="#mit-license"><span class="octicon octicon-link"></span></a><a href="http://opensource.org/licenses/MIT">MIT License</a>
+</h2>
+
+<p>You are free to use this as you please. <strong>No attribution necessary, but much appreciated.</strong></p>
+
+<p>Copyright © 2013 Jesse Squires</p>
+
+<blockquote>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</blockquote>
+
+<p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://github-camo.global.ssl.fastly.net/004c98d2bf020413977d3625082dfbd5ce960628/68747470733a2f2f64327765637a68766c38323376302e636c6f756466726f6e742e6e65742f6a65737365737175697265732f6d657373616765737461626c6576696577636f6e74726f6c6c65722f7472656e642e706e67" alt="Bitdeli Badge" data-canonical-src="https://d2weczhvl823v0.cloudfront.net/jessesquires/messagestableviewcontroller/trend.png" style="max-width:100%;"></a></p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.06095s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

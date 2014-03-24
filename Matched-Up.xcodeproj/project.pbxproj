@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938AD798D9FA4BA3A5EA0671 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 655E698350684D90A15727A5 /* libPods.a */; };
 		D935AA8418D3711500FDB48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AA8318D3711500FDB48A /* Foundation.framework */; };
 		D935AA8618D3711500FDB48A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AA8518D3711500FDB48A /* CoreGraphics.framework */; };
 		D935AA8818D3711500FDB48A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AA8718D3711500FDB48A /* UIKit.framework */; };
@@ -14,14 +15,23 @@
 		D935AA9018D3711500FDB48A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AA8F18D3711500FDB48A /* main.m */; };
 		D935AA9418D3711500FDB48A /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AA9318D3711500FDB48A /* MUAppDelegate.m */; };
 		D935AA9718D3711500FDB48A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935AA9518D3711500FDB48A /* Main.storyboard */; };
-		D935AA9A18D3711500FDB48A /* MUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AA9918D3711500FDB48A /* MUFirstViewController.m */; };
-		D935AA9D18D3711500FDB48A /* MUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AA9C18D3711500FDB48A /* MUSecondViewController.m */; };
 		D935AA9F18D3711600FDB48A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D935AA9E18D3711600FDB48A /* Images.xcassets */; };
 		D935AAA618D3711600FDB48A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AAA518D3711600FDB48A /* XCTest.framework */; };
 		D935AAA718D3711600FDB48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AA8318D3711500FDB48A /* Foundation.framework */; };
 		D935AAA818D3711600FDB48A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D935AA8718D3711500FDB48A /* UIKit.framework */; };
 		D935AAB018D3711600FDB48A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D935AAAE18D3711600FDB48A /* InfoPlist.strings */; };
 		D935AAB218D3711600FDB48A /* Matched_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AAB118D3711600FDB48A /* Matched_UpTests.m */; };
+		D935AABD18D3716100FDB48A /* MULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AABC18D3716100FDB48A /* MULoginViewController.m */; };
+		D935AAD718D3F3C500FDB48A /* MUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D935AAD618D3F3C500FDB48A /* MUConstants.m */; };
+		D949FF1618D5980300D3C728 /* MUSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D949FF1518D5980300D3C728 /* MUSettingsViewController.m */; };
+		D959902418D4B78D005BF23B /* MUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D959902318D4B78D005BF23B /* MUHomeViewController.m */; };
+		D9A8000F18D73AA200A2392A /* MUTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A8000E18D73AA200A2392A /* MUTestUser.m */; };
+		D9A8001118D73B8F00A2392A /* browndog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9A8001018D73B8F00A2392A /* browndog.jpg */; };
+		D9BD86CA18D820E500C39E18 /* MUMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BD86C918D820E500C39E18 /* MUMatchViewController.m */; };
+		D9BD86CE18D823B000C39E18 /* MUMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BD86CD18D823B000C39E18 /* MUMatchesViewController.m */; };
+		D9BD86D218D82B8B00C39E18 /* MUChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BD86D118D82B8B00C39E18 /* MUChatViewController.m */; };
+		D9EE5CB318D5A45C00BDE77C /* MUEditProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EE5CB218D5A45C00BDE77C /* MUEditProfileController.m */; };
+		D9EE5CB718D5A80E00BDE77C /* MUProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EE5CB618D5A80E00BDE77C /* MUProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571EF9A30C31424BB1A897DD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		655E698350684D90A15727A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D935AA8018D3711500FDB48A /* Matched-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matched-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D935AA8318D3711500FDB48A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D935AA8518D3711500FDB48A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +58,33 @@
 		D935AA9218D3711500FDB48A /* MUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUAppDelegate.h; sourceTree = "<group>"; };
 		D935AA9318D3711500FDB48A /* MUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUAppDelegate.m; sourceTree = "<group>"; };
 		D935AA9618D3711500FDB48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D935AA9818D3711500FDB48A /* MUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUFirstViewController.h; sourceTree = "<group>"; };
-		D935AA9918D3711500FDB48A /* MUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUFirstViewController.m; sourceTree = "<group>"; };
-		D935AA9B18D3711500FDB48A /* MUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUSecondViewController.h; sourceTree = "<group>"; };
-		D935AA9C18D3711500FDB48A /* MUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUSecondViewController.m; sourceTree = "<group>"; };
 		D935AA9E18D3711600FDB48A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D935AAA418D3711600FDB48A /* Matched-UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matched-UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D935AAA518D3711600FDB48A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D935AAAD18D3711600FDB48A /* Matched-UpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Matched-UpTests-Info.plist"; sourceTree = "<group>"; };
 		D935AAAF18D3711600FDB48A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D935AAB118D3711600FDB48A /* Matched_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matched_UpTests.m; sourceTree = "<group>"; };
+		D935AABB18D3716100FDB48A /* MULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULoginViewController.h; sourceTree = "<group>"; };
+		D935AABC18D3716100FDB48A /* MULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULoginViewController.m; sourceTree = "<group>"; };
+		D935AAD518D3F3C500FDB48A /* MUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUConstants.h; sourceTree = "<group>"; };
+		D935AAD618D3F3C500FDB48A /* MUConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUConstants.m; sourceTree = "<group>"; };
+		D949FF1418D5980300D3C728 /* MUSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSettingsViewController.h; sourceTree = "<group>"; };
+		D949FF1518D5980300D3C728 /* MUSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSettingsViewController.m; sourceTree = "<group>"; };
+		D959902218D4B78D005BF23B /* MUHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHomeViewController.h; sourceTree = "<group>"; };
+		D959902318D4B78D005BF23B /* MUHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHomeViewController.m; sourceTree = "<group>"; };
+		D9A8000D18D73AA200A2392A /* MUTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTestUser.h; sourceTree = "<group>"; };
+		D9A8000E18D73AA200A2392A /* MUTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTestUser.m; sourceTree = "<group>"; };
+		D9A8001018D73B8F00A2392A /* browndog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = browndog.jpg; sourceTree = "<group>"; };
+		D9BD86C818D820E500C39E18 /* MUMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMatchViewController.h; sourceTree = "<group>"; };
+		D9BD86C918D820E500C39E18 /* MUMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMatchViewController.m; sourceTree = "<group>"; };
+		D9BD86CC18D823B000C39E18 /* MUMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMatchesViewController.h; sourceTree = "<group>"; };
+		D9BD86CD18D823B000C39E18 /* MUMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMatchesViewController.m; sourceTree = "<group>"; };
+		D9BD86D018D82B8B00C39E18 /* MUChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUChatViewController.h; sourceTree = "<group>"; };
+		D9BD86D118D82B8B00C39E18 /* MUChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUChatViewController.m; sourceTree = "<group>"; };
+		D9EE5CB118D5A45C00BDE77C /* MUEditProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUEditProfileController.h; sourceTree = "<group>"; };
+		D9EE5CB218D5A45C00BDE77C /* MUEditProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUEditProfileController.m; sourceTree = "<group>"; };
+		D9EE5CB518D5A80E00BDE77C /* MUProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProfileViewController.h; sourceTree = "<group>"; };
+		D9EE5CB618D5A80E00BDE77C /* MUProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 				D935AA8618D3711500FDB48A /* CoreGraphics.framework in Frameworks */,
 				D935AA8818D3711500FDB48A /* UIKit.framework in Frameworks */,
 				D935AA8418D3711500FDB48A /* Foundation.framework in Frameworks */,
+				938AD798D9FA4BA3A5EA0671 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +119,7 @@
 				D935AAAB18D3711600FDB48A /* Matched-UpTests */,
 				D935AA8218D3711500FDB48A /* Frameworks */,
 				D935AA8118D3711500FDB48A /* Products */,
+				571EF9A30C31424BB1A897DD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +139,7 @@
 				D935AA8518D3711500FDB48A /* CoreGraphics.framework */,
 				D935AA8718D3711500FDB48A /* UIKit.framework */,
 				D935AAA518D3711600FDB48A /* XCTest.framework */,
+				655E698350684D90A15727A5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +150,17 @@
 				D935AA9218D3711500FDB48A /* MUAppDelegate.h */,
 				D935AA9318D3711500FDB48A /* MUAppDelegate.m */,
 				D935AA9518D3711500FDB48A /* Main.storyboard */,
-				D935AA9818D3711500FDB48A /* MUFirstViewController.h */,
-				D935AA9918D3711500FDB48A /* MUFirstViewController.m */,
-				D935AA9B18D3711500FDB48A /* MUSecondViewController.h */,
-				D935AA9C18D3711500FDB48A /* MUSecondViewController.m */,
+				D935AABE18D3716900FDB48A /* Login */,
+				D959902118D4B75A005BF23B /* Home */,
+				D949FF1318D5978C00D3C728 /* Settings */,
+				D9EE5CB018D5A40600BDE77C /* EditProfile */,
+				D9EE5CB418D5A7B300BDE77C /* Profile */,
+				D9A8000C18D73A7000A2392A /* Test User */,
+				D9BD86C718D8206100C39E18 /* Match */,
+				D9BD86CB18D8237D00C39E18 /* Matches */,
+				D9BD86CF18D824D100C39E18 /* Chat */,
+				D935AAD618D3F3C500FDB48A /* MUConstants.m */,
+				D935AAD518D3F3C500FDB48A /* MUConstants.h */,
 				D935AA9E18D3711600FDB48A /* Images.xcassets */,
 				D935AA8A18D3711500FDB48A /* Supporting Files */,
 			);
@@ -131,6 +170,7 @@
 		D935AA8A18D3711500FDB48A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9A8001018D73B8F00A2392A /* browndog.jpg */,
 				D935AA8B18D3711500FDB48A /* Matched-Up-Info.plist */,
 				D935AA8C18D3711500FDB48A /* InfoPlist.strings */,
 				D935AA8F18D3711500FDB48A /* main.m */,
@@ -157,6 +197,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D935AABE18D3716900FDB48A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D935AABB18D3716100FDB48A /* MULoginViewController.h */,
+				D935AABC18D3716100FDB48A /* MULoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D949FF1318D5978C00D3C728 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D949FF1418D5980300D3C728 /* MUSettingsViewController.h */,
+				D949FF1518D5980300D3C728 /* MUSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		D959902118D4B75A005BF23B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D959902218D4B78D005BF23B /* MUHomeViewController.h */,
+				D959902318D4B78D005BF23B /* MUHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D9A8000C18D73A7000A2392A /* Test User */ = {
+			isa = PBXGroup;
+			children = (
+				D9A8000D18D73AA200A2392A /* MUTestUser.h */,
+				D9A8000E18D73AA200A2392A /* MUTestUser.m */,
+			);
+			name = "Test User";
+			sourceTree = "<group>";
+		};
+		D9BD86C718D8206100C39E18 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD86C818D820E500C39E18 /* MUMatchViewController.h */,
+				D9BD86C918D820E500C39E18 /* MUMatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		D9BD86CB18D8237D00C39E18 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD86CC18D823B000C39E18 /* MUMatchesViewController.h */,
+				D9BD86CD18D823B000C39E18 /* MUMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		D9BD86CF18D824D100C39E18 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD86D018D82B8B00C39E18 /* MUChatViewController.h */,
+				D9BD86D118D82B8B00C39E18 /* MUChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		D9EE5CB018D5A40600BDE77C /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D9EE5CB118D5A45C00BDE77C /* MUEditProfileController.h */,
+				D9EE5CB218D5A45C00BDE77C /* MUEditProfileController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		D9EE5CB418D5A7B300BDE77C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D9EE5CB518D5A80E00BDE77C /* MUProfileViewController.h */,
+				D9EE5CB618D5A80E00BDE77C /* MUProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D935AAB518D3711600FDB48A /* Build configuration list for PBXNativeTarget "Matched-Up" */;
 			buildPhases = (
+				8B5345310B2B4E9688343879 /* Check Pods Manifest.lock */,
 				D935AA7C18D3711500FDB48A /* Sources */,
 				D935AA7D18D3711500FDB48A /* Frameworks */,
 				D935AA7E18D3711500FDB48A /* Resources */,
+				F4F11BAAE8774C5887772690 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D935AA9F18D3711600FDB48A /* Images.xcassets in Resources */,
+				D9A8001118D73B8F00A2392A /* browndog.jpg in Resources */,
 				D935AA8E18D3711500FDB48A /* InfoPlist.strings in Resources */,
 				D935AA9718D3711500FDB48A /* Main.storyboard in Resources */,
 			);
@@ -250,15 +374,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B5345310B2B4E9688343879 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F11BAAE8774C5887772690 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D935AA7C18D3711500FDB48A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D935AA9D18D3711500FDB48A /* MUSecondViewController.m in Sources */,
-				D935AA9A18D3711500FDB48A /* MUFirstViewController.m in Sources */,
+				D935AABD18D3716100FDB48A /* MULoginViewController.m in Sources */,
+				D949FF1618D5980300D3C728 /* MUSettingsViewController.m in Sources */,
+				D959902418D4B78D005BF23B /* MUHomeViewController.m in Sources */,
+				D9EE5CB318D5A45C00BDE77C /* MUEditProfileController.m in Sources */,
 				D935AA9418D3711500FDB48A /* MUAppDelegate.m in Sources */,
 				D935AA9018D3711500FDB48A /* main.m in Sources */,
+				D9BD86D218D82B8B00C39E18 /* MUChatViewController.m in Sources */,
+				D9BD86CA18D820E500C39E18 /* MUMatchViewController.m in Sources */,
+				D9EE5CB718D5A80E00BDE77C /* MUProfileViewController.m in Sources */,
+				D935AAD718D3F3C500FDB48A /* MUConstants.m in Sources */,
+				D9A8000F18D73AA200A2392A /* MUTestUser.m in Sources */,
+				D9BD86CE18D823B000C39E18 /* MUMatchesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +545,7 @@
 		};
 		D935AAB618D3711600FDB48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571EF9A30C31424BB1A897DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +559,7 @@
 		};
 		D935AAB718D3711600FDB48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571EF9A30C31424BB1A897DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +630,7 @@
 				D935AAB718D3711600FDB48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D935AAB818D3711600FDB48A /* Build configuration list for PBXNativeTarget "Matched-UpTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +639,7 @@
 				D935AABA18D3711600FDB48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

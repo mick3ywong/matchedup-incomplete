@@ -10,6 +10,15 @@
 
 @interface MUEditProfileController ()
 
+
+@property (strong, nonatomic) IBOutlet UITextView *taglineTextField;
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
+
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *saveBarButtonItem;
+
+
 @end
 
 @implementation MUEditProfileController
@@ -27,6 +36,35 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//section 11 Managing User Profile - editViewController (video 6) - Grabbing the photo from UserProfile
+    //see below saveBarButtonPressed for tagLine save
+
+    PFQuery *query = [PFQuery queryWithClassName:kMUPhotoClassKey]; //accessing the photo here
+    
+    [query whereKey:kMUPhotoUserKey equalTo:[PFUser currentUser]]; //querying using a key to user's photo key equal to the current user
+    
+    //execute query
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error)
+     {
+         if ([objects count] > 0)
+         {
+             PFObject *photo  = objects[0]; //photo object item 1 (0 in array index)
+             PFFile *pictureFile =photo [KMUPhotoPictureKey];
+             
+             //get pictire
+             [pictureFile getDataInBackgroundWithBlock:^(NSData *data, NSError *error)
+             {
+                 self.profilePictureImageView.image = [UIImage imageWithData:data];
+             }];
+         
+         }
+        
+    }];
+    
+    //update our tagLine textField
+    self.taglineTextField.text =[[PFUser currentUser] objectForKey:kMUUserTagLineKey];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,6 +72,26 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - IB Actions EditProfileVC
+
+//section 11 Managing User Profile video 7 Saving the tagLine textField
+- (IBAction)saveBarButtonPressed:(UIBarButtonItem *)sender
+{
+    [[PFUser currentUser]  setObject:self.taglineTextField.text forKey:kMUUserTagLineKey];
+    
+    //save in background
+    
+    [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error)
+    {
+        //get rid of editprofileVC by popping
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
+    
+    
+}
+
 
 /*
 #pragma mark - Navigation
